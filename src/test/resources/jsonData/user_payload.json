@@ -1,0 +1,31 @@
+[
+ {
+  "id": 1,
+  "username": "mohan",
+  "firstName": "Mohan",
+  "lastName": "Kumar",
+  "email": "mohan@kumar.com",
+  "password": "Test@123",
+  "phone": "0412345678",
+  "userStatus": 1
+},
+{
+  "id": 2,
+  "username": "ankitkumar",
+  "firstName": "Ankit",
+  "lastName": "Kumar",
+  "email": "ankit@kumar.com",
+  "password": "Test@123",
+  "phone": "0412345678",
+  "userStatus": 0
+},{
+  "id": 3,
+  "username": "rahul",
+  "firstName": "Rahul",
+  "lastName": "Kumar",
+  "email": "rahul@kumar.com",
+  "password": "Test@123",
+  "phone": "0412345678",
+  "userStatus": 1
+}
+]
