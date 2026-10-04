@@ -15,7 +15,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                echo "Running Rest Assured API + TestNG tests"
+                echo "Running Rest Assured API Testing + TestNG tests"
                 bat 'mvn clean test'
             }
         }
