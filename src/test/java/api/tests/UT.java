@@ -32,7 +32,7 @@ public class UT {
 				.assertThat()
 				.statusCode(200)
 				.contentType("application/json")
-				.header("Content-Type", "application/json").extract().response();
+				.header("Content-Type", "application/json1").extract().response();
 
 		Map<String,String> cookiesMap = response.getCookies();
 		System.out.println(cookiesMap.size()+"---");
