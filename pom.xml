@@ -5,6 +5,11 @@
 	<groupId>RestAPIAutomation</groupId>
 	<artifactId>RestAPIAutomation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
+	<properties>
+		<suiteXmlFile>testng.xml</suiteXmlFile>
+	</properties>
+
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
 		<dependency>
@@ -132,7 +137,7 @@
 					<version>3.2.2</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>testng.xml</suiteXmlFile>
+							<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
