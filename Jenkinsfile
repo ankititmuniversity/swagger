@@ -62,8 +62,7 @@ pipeline {
                 test-output/**,
                 logs/**
             ''', allowEmptyArchive: true
-
-            cleanWs()
+            
         }
 
         success {
